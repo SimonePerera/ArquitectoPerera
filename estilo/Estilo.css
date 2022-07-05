@@ -187,6 +187,7 @@ p{ text-align: justify;}
      height: 10%;
      background-color: rgba(128, 128, 128, 0.465);
  }
+
 .divIndex {
     display: flex;
     flex-direction: column;
@@ -283,7 +284,7 @@ p{ text-align: justify;}
 
 .containerP {  display: grid;
   grid-template-columns: 1fr 1fr 1.4fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 5fr 5fr 5fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -360,6 +361,12 @@ p{ text-align: justify;}
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 3cm;
+    margin-right: 1cm;
+    margin-left: 3cm;
+}
+.titIm h3 {
+  margin-bottom: 1cm;
 }
 .invertidoText{
   color: rgb(59,0,0);
@@ -372,7 +379,8 @@ p{ text-align: justify;}
   font-family: 'Montserrat', sans-serif;
 }
 .hP{
-  color: rgb(59,0,0); ;
+  color: rgb(59,0,0); 
+  margin-bottom: 1cm ;
 }
 
 
@@ -709,13 +717,17 @@ p{ text-align: justify;}
     grid-area: contactamos;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     border: solid;
-    /* margin: 0cm 1cm 7cm 0.5cm; */
     background-color: grey;
+    background: linear-gradient(to bottom, rgb(198, 198, 198),rgb(72, 71, 71));
     padding: 0.5cm;
     margin-left: 10px;
+ }
+ .contactamos form{
+  display: flex;
+  flex-direction: column;
  }
 
  .contactamos h3{
@@ -726,6 +738,14 @@ p{ text-align: justify;}
   padding-bottom: 2%;
   font-size: 24px;
 
+}
+input{
+  width: 30%;
+  transition: all 1s;
+}
+input:focus{
+  width: 100%;
+  background-color: rgba(244, 244, 244, 0.879);
 }
 .formC label {
   color: beige;
@@ -850,6 +870,7 @@ p{ text-align: justify;}
 .imágenes- { 
   background-color: rgba(211, 210, 210, 0.859);
   padding-top: 10px;
+  padding-bottom: 10px;
   grid-area: imágenes-;
   display: flex;
   flex-flow: row nowrap;
@@ -858,25 +879,26 @@ p{ text-align: justify;}
   margin: 0.5cm 4cm 0cm 4cm ;
  }
  .imágenes- img {
-     height: 10cm;
-     width: 12cm;
+     height: 13cm;
+     width: 16cm;
      border : solid;
      border-bottom: hidden;
      border-color: rgba(133, 133, 133, 0.659);
  }
 
 
-.informacion { 
+ .informacion {
   background-color: rgba(211, 210, 210, 0.859);
   grid-area: informacion;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 0cm 8cm 0cm 8cm ;
+  margin: 0cm 15cm 0cm 15cm;
   padding: 1cm;
   border: solid;
- }
+  transform: translateY(-130px);
+}
 
  .informacion h3{
   color : rgb(43, 43, 43);

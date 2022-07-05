@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../estilo/Estilo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
 </head>
 <body class="estiloBack">
 
@@ -16,7 +19,7 @@
         <div class="logo">
         <img src="multimedia/CabeceraLogo.png" alt="" class="">
         </div>
-        <div class="paginasC">
+        <div class="paginasC" data-aos="fade-left" data-aos-duration="500">
             <ul>
                 <li><a href="../index.html" class="subrayado">Inicio</a></li>
                 <li><a href="" class="subrayado" >Proyectos</a>
@@ -49,8 +52,6 @@
                     <option value="INT">Interior</option>
                     <option value="Metrop">Montevideo</option>
                 </select>
-         
-                <br>
                 <input type="submit" value="Enviar contacto">
                 <input type="reset" value="Borrar Datos">
             </form>
@@ -70,13 +71,9 @@
         
     
       </div>
-
-
-
-
-
-    
-
    <strong><a href="../index.html">volver</a></strong>
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

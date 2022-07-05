@@ -11,16 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.cpadding: 50px 30px;
     margin-bottom:50px;om/css2?family=IBM+Plex+Mono:wght@200&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
     <div class="containerI">
-        <div class="TE"><h5>arqhugoperera@gmail.com</h5></div>
+        <div class="TE"><h5>arqhugoperera@gmail.com</h5></div> 
         <section class="TITULO">
             <img src="multimedia/CabeceraLogo.png" alt="" class="LOGO">
         </section>
         <section class="PAGINAS-">
-            <ul class="ulIndex">
+            <ul class="ulIndex" data-aos="fade-left" data-aos-duration="500">
                 <li><a href="paginas/Proyectos.html" class="  pags" >PROYECTOS</a>
                   <ul>
                      <li><a href="paginas/Proyectos.html" >Proyectos</a></li>
@@ -33,16 +35,16 @@
              </ul>
             </section>
         <section class="PARALLEX">
-            <section class="estiloNombre">  
+            <section class="estiloNombre" data-aos="flip-down">  
                 <h1>HUGO PERERA FERRO</h1>
                 <h4>ARQUITECTO</h4>
                 <h4>BIM MANAGER </h4>
             </section>
         </section>
         <section class="GALERIA">
-            <div class="divIndex" >
+            <div class="divIndex">
                 <h3>Edificio 1</h3>
-                <img src="multimedia/Index/Edif1.jpeg" alt="Edificio" class="styleImg">
+                <img src="multimedia/Index/Edif1.jpeg" alt="Edificio" class="styleImg" >
                 <p class="estiloTexto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus optio unde id quod culpa a ipsum est exercitationem numquam enim necessitatibus at obcaecati, quae quis quo sunt. Doloremque, quibusdam.</p>
             </div>
             <div class="divIndex">
@@ -52,12 +54,15 @@
             </div>
             <div class="divIndex">
                 <h3>Edificio 3</h3>
-                <img src="multimedia/Index/Edif3.jpeg" alt="Edificio" class="styleImg">
+                <img src="multimedia/Index/Edif3.jpeg" alt="Edificio" class="styleImg" >
                 <p class="estiloTexto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus optio unde id quod culpa a ipsum est exercitationem numquam enim necessitatibus at obcaecati, quae quis quo sunt. Doloremque, quibusdam.</p>
             </div>
         </section>
         <section class="PARALLEX2"></section>
       </div>
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
-
