@@ -1,16 +1,18 @@
+/* font-family: 'Kantumruy Pro', sans-serif;
+font-family: 'Koulen', cursive;*/
+
 *{
 	margin: 0;
 	padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
 	overflow-x: hidden;
-  background: rgb(96,0,0);
-  background: linear-gradient(180deg, rgba(96,0,0,1) 13%, rgba(84,12,12,1) 65%);
+  background-color: rgb(255, 255, 255);
   }
 html{
 	font-size: 62.5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kantumruy Pro', sans-serif;
 }
 nav {
 	position: relative;
@@ -39,242 +41,74 @@ a {
   text-decoration:none;
   color: beige;}   
 
-p{ text-align: justify;}
-
-
-/* Listas */
- ul {
-    list-style: none;
-    height: 1px;
-    text-align: center;
-    border: 1px;
-    border-color: rgb(26, 24, 24);
- }
-
-   li {
-    display: inline-block;
-    position:relative;
-    font-size: 20px;
-    padding-right: 10px;
-    margin: 10px;
-  
-    
- }
-   ul ul {
-    position: relative;
-    display: none;
-    margin: 0%;
- }
-   ul ul li {
-    display: inline-block;
-    width: 200px;
-    padding: 30px;
-    background-color: rgba(126, 53, 53, 0.883);
-    margin: 0%;
- }
-   ul ul li a {
-    color: white;
-    margin: 0%;
-    }
-   ul li:hover ul {
-    margin: 0%;
-    position: absolute;
-    display:block;
-    background-color: rgba(126, 53, 53, 0.883);
- }
-
+p{ text-align: justify;
+color: beige;}
 
  /* Index */
-
- .ulIndex{
-  width: 100%;
+ .headerIndex{
+   background-color: black;
  }
-
- .containerI {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 0.1fr 0.20fr 2fr 1fr ; 
-    gap: 0px 0px; 
-    grid-template-areas:  
-    "TE TE TE ."    
-    "TITULO PAGINAS- PAGINAS- ."
-    "PARALLEX PARALLEX PARALLEX ."
-    "GALERIA GALERIA GALERIA ."
-    "PARALLEX2 PARALLEX2 PARALLEX2 .";
-  }
-  .TITULO { 
-    position: sticky;
-    background-color: rgb(239, 239, 239);
-    margin-top: 10px;
-    grid-area: TITULO;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    }
-  .PAGINAS- { 
-    grid-area: PAGINAS-;
-    background-color: rgb(239, 239, 239);
-    margin-top: 10px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    
+ .headerIndex a{
+  color: antiquewhite;
  }
-  .PARALLEX { 
-    grid-area: PARALLEX; 
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    background-image: url("../multimedia/Edificio.jpg");
-  
-    min-height: 200px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0ch;
-  
+ .navIndex{
+  background-color: rgba(174, 174, 174, 0.801);
+ }
+ .navIndex a{
+  font-family: 'Koulen', cursive;
+  color: white;
 }
-  .GALERIA { 
-    grid-area: GALERIA;
-    background-color: rgb(79, 15, 15);
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding: 5px;
-    align-items: center;
+ .dropdown-menu{
+  background-color: grey;
+ }
 
- }
-  .PARALLEX2 { 
-    grid-area: PARALLEX2;
-    background-image: url("../multimedia/Edificio.jpg");
-  
-    min-height: 100px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0ch;
-  
- }
- .FOOTER { 
-    grid-area: FOOTER; 
-}
-.LOGO{
-  background: rgb(79, 15, 15);
-  padding: 5px;
-  margin: 5px;
+/* .fu{
+  margin: 10px ;
+} */
+
+ .PARALLEX { 
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  background-image: url("../multimedia/Edificio.jpg");
+
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0ch;
 }
 
-.pags{
-    color: black;
-    margin-bottom: 10%;
-    top: 0px;
-    padding-bottom: 0px;
-    border: 1cm;
-    border-color: rgb(49, 14, 14);
-    font-size: 20px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 800;
-    
-}
- .styleImg{
-     padding: 5px;
-     width: 30%;
-     height: 10%;
-     background-color: rgba(128, 128, 128, 0.465);
- }
+ .PARALLEX2 { 
+  background-image: url("../multimedia/Edificio.jpg");
 
-.divIndex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- } 
+  min-height: 100px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0ch;
+
+}
+
 .estiloNombre{
     text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
-    background-color: rgba(100, 85, 85, 0.863);
+    background-color: rgba(174, 174, 174, 0.863);
     padding: 50px 30px;
     margin-bottom: 50px;
     margin-top: 50px;
 
 }
-
-.estiloImagenes{
-    padding-right: 4cm;
-    padding-left: 4cm;
+.card-text{
+    color: rgb(0, 0, 0);
 }
 
-
-.estiloTexto{
-    color: white;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    padding: 20px 20px 20px 20px;
-}
-
-/* tablet RD */
-@media screen and (max-width: 996px){
-  .containerI {
-    display: grid; 
-    grid-template-columns: repeat(2,1fr); 
-    grid-template-rows: 0.1fr 0.50fr 1.8fr 1.6fr;
-    gap: 0px 0px; 
-    grid-template-areas:  
-    "TE TE ."    
-    "TITULO PAGINAS- ."
-    "PARALLEX PARALLEX ."
-    "GALERIA GALERIA .";
-  } 
-  .PAGINAS- {
-    grid-area: PAGINAS-;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-}
-
-/* celular RD */
-@media screen and (max-width: 631px){
-  .containerI {
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.1fr 0.50fr 0.4fr 1.8fr 2.1fr;
-    gap: 0px 0px; 
-    grid-template-areas:  
-    "TE."    
-    "TITULO ."
-    "PAGINAS-."
-    "PARALLEX ."
-    "GALERIA .";
-  } 
-
-  .TITULO { 
-    grid-area: TITULO;
-    justify-content: center;
-  }
-
-  .PAGINAS- {
-    grid-area: PAGINAS-;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .PAGINAS- li {
-    display: block;
-  }
-  .GALERIA { 
-  grid-area: GALERIA;
-  flex-flow: column nowrap;
-  }
-  .styleImg {
-  padding: 5px;
-  width: 50%;
-  height: auto;
-  background-color: rgba(128, 128, 128, 0.465);
-  }
+.pet{
+  margin-top: 1cm;
+  margin-left: 1cm;
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -284,31 +118,18 @@ p{ text-align: justify;}
 
 .containerP {  display: grid;
   grid-template-columns: 1fr 1fr 1.4fr;
-  grid-template-rows: 1.5fr 5fr 5fr 5fr 1fr;
+  grid-template-rows: 5fr 5fr 5fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Titulo Titulo Pagina"
     "P1 P1 P1"
     "P2 P2 P2"
     "P3 P3 P3"
     "f1 f2 f2";
 }
-.Titulo { 
-  grid-area: Titulo; 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'IBM Plex Mono', monospace;  
-  padding-right: 3cm;
-}
+
 .Pagina{
   grid-area: Pagina; 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  align-items: center;
 }
 .P1 {    
   grid-area: P1;
@@ -346,10 +167,7 @@ p{ text-align: justify;}
 
 .f2 { grid-area: f2; }
 
-.listaPag{
-    display: flex;
-    flex-flow: row nowrap;
-}
+
 
 .imgProyecto{
     display: inline;
@@ -357,17 +175,7 @@ p{ text-align: justify;}
     height: 150px;
     width: 250px;
 }
-.titIm{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 3cm;
-    margin-right: 1cm;
-    margin-left: 3cm;
-}
-.titIm h3 {
-  margin-bottom: 1cm;
-}
+
 .invertidoText{
   color: rgb(59,0,0);
   font-size: 16px;
@@ -388,47 +196,30 @@ p{ text-align: justify;}
 @media screen and (max-width: 1238px){
   .containerP {  display: grid;
     grid-template-columns: 1fr 1fr 1.4fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Titulo Titulo Pagina"
       "P1 P1 P1"
       "P2 P2 P2"
       "P3 P3 P3"
       "f1 f2 f2";
   }
 
-  .Titulo {
-    grid-area: Titulo;
-    padding-right: 0.6cm;
-  }
-  .Titulo h1{
-    text-align: center;
-  }
 }
-
 /* t RD*/
 @media screen and (max-width: 1100px){
   .containerP { 
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr 0.5fr 1fr 1fr 1fr 0.3fr;
+    grid-template-rows:  1fr 1fr 1fr 0.3fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Titulo Titulo"
-      "Pagina Pagina"
       "P1 P1 "
       "P2 P2 "
       "P3 P3 "
       "f1 f2 ";
-  }
-  .Pagina {
-    justify-content: center;
-    align-items: flex-start;
-    border: solid;
-    border-color: antiquewhite;
   }
 }
 
@@ -437,25 +228,17 @@ p{ text-align: justify;}
   .containerP { 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.6fr 0.3fr 1fr 1fr 1fr 0.1fr 0.1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.1fr 0.1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Titulo"
-      "Pagina"
       "P1"
       "P2"
       "P3"
       "f1"
       "f2";
   }
-  .Titulo {
-    grid-area: Titulo;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 0%;
-  }
+  
   .P1{
     flex-flow: column;
     justify-content: space-evenly;
@@ -475,31 +258,8 @@ p{ text-align: justify;}
     width: 80%;
     height: fit-content;
   }
-  .Pagina ul ul{
-    margin-left: 10%;
-  }
 }
-/* celular RD smll*/
- @media screen and (max-width: 330px){
-  .containerP { 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.6fr 0.6fr 1fr 1fr 1fr 0.1fr 0.1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Titulo"
-      "Pagina"
-      "P1"
-      "P2"
-      "P3"
-      "f1"
-      "f2";
-  }
-  .paginas li{
-    display: block;
-  }
- }
+
 
 /* ----------------------------------------------------------------------------------------- */
 /* Servicios  */
@@ -509,31 +269,14 @@ p{ text-align: justify;}
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "tituloS paginas paginas logo"
+    "paginas paginas paginas paginas"
     "servicio servicio servicio servicio"
     "SRV SRV SRV SRV";
 }
 
-.tituloS { 
-  grid-area: tituloS;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-}
-
-.logo {
-   grid-area: logo;
-   display: flex;
-   flex-flow: row nowrap;
-   justify-content: flex-end;
-   }
 
 .paginas { 
   grid-area: paginas; 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center; 
 }
 
 .servicio { 
@@ -574,10 +317,6 @@ p{ text-align: justify;}
   font-family: 'Montserrat', sans-serif;
 }
 
-.logoDesign{
-  padding: 5px;
-    margin: 5px;
-}
 
 .SRV img{ padding-right: 100px;}
 .SRV h5 {
@@ -591,11 +330,10 @@ p{ text-align: justify;}
 @media screen and (max-width: 1130px){
   .containerS {  display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 0.4fr 0.1fr 1fr 1.6fr;
+    grid-template-rows: 0.1fr 1fr 1.6fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "tituloS logo"
       "paginas paginas" 
       "servicio servicio"
       "SRV SRV ";
@@ -603,20 +341,16 @@ p{ text-align: justify;}
   
   .paginas {
     grid-area: paginas;
-    border: solid;
-    border-color: antiquewhite;
-    align-items: baseline;
   } 
 }
 /* Tablet RD */
 @media screen and (max-width: 870px){
   .containerS {  display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 0.4fr 0.1fr 2fr 1.6fr;
+    grid-template-rows: 0.1fr 2fr 1.6fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "tituloS logo"
       "paginas paginas" 
       "servicio servicio"
       "SRV SRV ";
@@ -631,27 +365,16 @@ p{ text-align: justify;}
     padding: 5%;
     border-top: 0px;
   }
-  .logo {
-    grid-area: logo;
-    display: flex;
-    flex-flow: row;
-    align-items: center;}
-  .logoDesign{
-    width: 200px;
-    height: 100px;
-  }
 
 }
 /* celular RD */
 @media screen and (max-width: 500px){
   .containerS {  display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 0.2fr 0.2fr 0.15fr 1.6fr 2fr;
+    grid-template-rows: 0.15fr 1.6fr 2fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "tituloS "
-      "logo"
       "paginas " 
       "servicio "
       "SRV ";
@@ -665,24 +388,6 @@ p{ text-align: justify;}
     padding: 5%;
     border-top: 0px;
   }
-  .tituloS{
-    justify-content: center;
-  }
-  .paginas{
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .logo {
-    grid-area: logo;
-    display: flex;
-    flex-flow: row;
-    align-items: baseline;
-  justify-content: center;
-}
-  .logoDesign{
-    width: 200px;
-    height: 100px;
-  }
 }
 
 /* contacto */
@@ -692,24 +397,11 @@ p{ text-align: justify;}
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "tituloC logo paginasC"
+    "PaginasC PaginasC paginasC"
     "contactamos contactamos informacionC"
     "contactamos contactamos mapa";
     justify-items: center;
 }
-
-
-.tituloC { 
-  grid-area: tituloC;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-
- }
-
-.logo { grid-area: logo; }
 
 .paginasC { grid-area: paginasC; }
 
@@ -801,17 +493,11 @@ input:focus{
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "tituloC "
-      "logo "
       "paginasC"
       "contactamos  "
       "informacionC"
       " mapa";
     
-  }
-  .tituloC{
-    justify-content: center;
-    text-align: left;
   }
   .informacionC{
     width: 100%;
@@ -823,128 +509,8 @@ input:focus{
   }
   .mapa{
     width: 100%;
-    background-color: rgba(22, 6, 6, 0.607);
+    background-color: rgba(35, 34, 34, 0.607);
   }
 }
 
 
-
-/* DIREC OBRA */
-.containerDO {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "tituloDO logoDO paginasDO"
-    "imágenes- imágenes- imágenes-"
-    "informacion informacion informacion"
-    "footer footer footer";
-}
-
-.tituloDO { 
-  grid-area: tituloDO;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-
- }
-
-.logoDO { 
-  grid-area: logoDO;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  padding-top: 10px;
-}
-
-.paginasDO { 
-  grid-area: paginasDO;
-  display: flex;
-  flex-flow: row;
-}
-
-
-.imágenes- { 
-  background-color: rgba(211, 210, 210, 0.859);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  grid-area: imágenes-;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0.5cm 4cm 0cm 4cm ;
- }
- .imágenes- img {
-     height: 13cm;
-     width: 16cm;
-     border : solid;
-     border-bottom: hidden;
-     border-color: rgba(133, 133, 133, 0.659);
- }
-
-
- .informacion {
-  background-color: rgba(211, 210, 210, 0.859);
-  grid-area: informacion;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0cm 15cm 0cm 15cm;
-  padding: 1cm;
-  border: solid;
-  transform: translateY(-130px);
-}
-
- .informacion h3{
-  color : rgb(43, 43, 43);
-  font-size: 24px;
- }
-
-.informacion p {
-  color : rgb(43, 43, 43);  
-  font-size: 15px;
-}
-
-.footer { 
-  grid-area: footer;
-  padding-top: 2% }
-.footer a{
-  font-size: 15px;
-}
-/* Tablet RD */
-@media screen and (max-width: 1100px){
-  .containerDO {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 1fr 1fr 0.1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "tituloDO "
-      "logoDO"
-      "paginasD0 "
-      "imágenes-"
-      "informacion"
-      "footer ";
-  }
-  .tituloDO{
-    text-align: center;
-    align-items: baseline;
-    justify-content: center;
-  }
-  .paginasDO{
-    justify-content: baseline;
-  }
-  .imágenes-{
-    width: 100%;
-    margin: 0%;
-  }
-  .informacion{
-    width: 100%;
-    margin: 0%;
-  }
-}
