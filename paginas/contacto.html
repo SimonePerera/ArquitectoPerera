@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200&family=Koulen&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="estilo/Estilo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200&family=Koulen&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo/Estilo.css">
+  <link rel="stylesheet" href="../estilo/main.css">
 </head>
 <body>
   <header>
-    <div class="paginasC">
+    <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
           <div class="container-fluid ">
             <a class="navbar-brand" href="#"><img src="../multimedia/CabeceraLogoMiniNegro.png" alt="" style="width:50%;"></a>
@@ -48,9 +48,9 @@
             </div>
           </div>
         </nav>
-  </div>
+    </div>
   </header>
-<!-- Informacion de contacto -->
+<!-- Form de contacto -->
 <div class="m-4">
   <h4 class="text-center border-bottom border-4 ">Contactanos</h4>
   <form class="row g-3">
@@ -91,32 +91,25 @@
   </form>
 </div>
 <!-- Sobre nosotros -->
-<div class="m-4">
+<div >
   <h4 class="text-center border-bottom border-4">Informacion de contacto</h4>
-  <div class="mb-3 row">
-    <label for="staticEmail" class="col-sm-2 col-form-label border">Email:</label>
-    <div class="col-sm-10">
-      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="arqhugoperera@gmail.com">
-    </div>
+  <div>
+    <ul>
+      <li><a href="arq.hugoperera@gmail.com">arq.hugoperera@gmail.com</a></li>
+      <li class="tem"><h6>Telefono de contacto:</h6> <p>099658062</p></li>
+      <li class="tam">
+        <a href=""><img src="../multimedia/Redes/linkedin.png" alt="linkedin" ></a>
+        <a href=""><img src="../multimedia/Redes/Facebook.png" alt="facebook" ></a>
+        <a href=""><img src="../multimedia/Redes/whatsapp.png" alt="whatsapp" ></a>
+      </li>
+      <li><p>Ubicación :</p></li>
+    </ul>
   </div>
-  <div class="mb-3 row">
-    <label for="staticEmail" class="col-sm-2 col-form-label border">Numero de telefono:</label>
-    <div class="col-sm-10">
-      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="099658062">
-    </div>
-  </div>
-  <div class="mb-3 row">
-    <label for="staticEmail" class="col-sm-2 col-form-label border">Cuenta de linkedin:</label>
-    <div class="col-sm-10 ">
-      <a href="https://www.linkedin.com/feed/">arqhpf</a>
-    </div>
-  </div>
-  <p class="border w-50">Ubicación :</p>
-  <section class="mapa">
+    <section class="mapa">
     <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
   </section>
+  </div>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script>
   AOS.init();

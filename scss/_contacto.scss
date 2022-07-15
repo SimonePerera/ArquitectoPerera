@@ -1,0 +1,24 @@
+.tam{
+    a{
+        padding-left: 10px;
+        img{
+            width: 30px;
+            
+        &:hover{
+            background-color: rgb(213, 213, 213);
+        }
+        }
+    }
+
+
+}
+
+.tem{
+    h6{
+        display: inline;
+    }
+    p{
+        display: inline;
+        margin-left: 5px;
+    }
+}

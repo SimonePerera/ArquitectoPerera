@@ -1,0 +1,23 @@
+.tam a {
+  padding-left: 10px; }
+  .tam a img {
+    width: 30px; }
+    .tam a img:hover {
+      background-color: #d5d5d5; }
+
+.tem h6 {
+  display: inline; }
+
+.tem p {
+  display: inline;
+  margin-left: 5px; }
+
+.tom {
+  padding-top: 15px; }
+  .tom div {
+    display: inline-block;
+    padding: 20px; }
+    .tom div h5 {
+      padding-right: 10px;
+      text-align: center;
+      padding-bottom: 10px; }
