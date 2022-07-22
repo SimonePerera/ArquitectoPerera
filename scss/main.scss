@@ -1,2 +1,23 @@
 @import "contacto";
 @import "DireccionDeObra";
+@mixin Letra($size, $color) {
+    font-size: $size;
+    color: $color;
+}
+.footerStyle{
+    @include Letra(15px,white)
+}
+.tam{
+    a{
+        padding-left: 10px;
+        img{
+            width: 30px;
+            
+        &:hover{
+            background-color: rgb(213, 213, 213);
+        }
+        }
+    }
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
