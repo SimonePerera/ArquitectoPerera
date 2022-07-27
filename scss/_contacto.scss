@@ -1,10 +1,31 @@
+.PARALLEXC { 
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    background-image: url("../multimedia/Edificio.jpg");
+
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0ch;
+}
+
+
 .tem{
     h6{
         display: inline;
+        font-size: 19px;
     }
     p{
         display: inline;
         margin-left: 5px;
+    }
+    a{
+        font-size: 19px;
+        overflow-wrap: break-word;
     }
 }
 
@@ -33,16 +54,26 @@ $social: (
 .botonC--a{
 	@extend .botonC;
 	background-color:map-get($social, regular );
-    font-weight: 200
+    font-weight: 200;
+    color : white;
 }
 
 .botonC--r{
 	@extend .botonC;
 	background-color:grey;
     font-weight: 100;
+    color: white;
 }
 
-
+.CONT{
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    h4{
+        font-size: 25px;
+    }
+}
 // mixin se encuentra en main 
 
 

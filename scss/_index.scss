@@ -1,0 +1,70 @@
+
+.headerIndex {
+    background-color: rgba(237, 237, 237, 0.751);
+    p{
+        @include Letra(14px,black);
+        padding-top:1%;
+    }
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-bottom-style: solid ;
+    border-color: black;
+}
+.navIndex{
+    background-color: rgba(174, 174, 174, 0.807);
+    a{
+        color: rgb(255, 253, 253);
+    }
+}
+.tIndex{
+    @include Letra(18px,black);
+}
+.dropdown-menu{
+    background-color: grey;
+}
+
+.PARALLEX { 
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    background-image: url("../multimedia/Edificio.jpg");
+
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0ch;
+}
+
+.PARALLEX2 { 
+    background-image: url("../multimedia/Edificio.jpg");
+
+    min-height: 200px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0ch;
+
+}
+
+
+.estiloNombre{
+    text-align: center;
+    background-color: rgba(174, 174, 174, 0.863);
+    padding: 8% 5% 0% 5%;
+    margin-top: 8%;
+    height: 600px;
+    overflow-wrap: break-word;
+}
+.tit1{
+    @include Letra(100px,white)
+}
+
+.tit2{
+    @include Letra(40px,white)
+}
+

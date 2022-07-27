@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,60 +9,71 @@
     <meta name="keywords" content="ARQUITECTO, SANJOSE, MONTEVIDEO, ARQUITECTURA, ASESORIA">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200&family=Koulen&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="estilo/Estilo.css">
+<link rel="stylesheet" href="estilo/main.css">
 </head>
 
 <body>
     <!-- header : mail + logo-->
-    <header class="headerIndex">
+    <header class="headerIndex d-none d-sm-block" >
             <div class="row">
-                <p class="col-10 col-sm-10 col-md-11 fs-6">arqhugoperera@gmail.com</p>
-                <img src="multimedia/CabeceraLogoMini.png" alt="HPF" class="col-2 col-sm-2 col-md-1 " >
-    </header>
-    <section class="PARALLEX container-fluid ">
-            <div class="row navIndex justify-content-evenly">
-                <ul class="nav nav-tabs col-10 col-sm-12 col-md-12">
-                  <li class="nav-item">
-                    <a class="nav-link fs-4" aria-current="page" href="#">Index</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="paginas/Proyectos.html" class="nav-link dropdown-toggle fs-4" data-bs-toggle="dropdown"  role="button" aria-expanded="false">Proyectos</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="paginas/Proyectos.html" class="dropdown-item fs-4">Proyectos</a></li>
-                      <li><a href="paginas/ProyectosBim.html" class="dropdown-item fs-4" >ProyectosBim</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="paginas/DireccionDeObra.html" class="nav-link fs-4" href="#">Direcciones de obra</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="paginas/Servicios.html" class="nav-link fs-4">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="paginas/contacto.html" class="nav-link fs-4">Contacto</a>
-                  </li>
-                </ul>
+                <p class="col-10 col-sm-10 col-md-11 fs-6 ">arqhugoperera@gmail.com</p>
+                <img src="multimedia/CabeceraLogoMiniNegro.png" alt="HPF" class="col-2 col-sm-2 col-md-1 " >
             </div>
-        <div class="row"> <section class="estiloNombre" data-aos="flip-down">  
-            <h1>HUGO PERERA FERRO</h1>
-            <h4>ARQUITECTO</h4>
-            <h4>BIM MANAGER </h4>
+    </header>
+    <section class="PARALLEX container-fluid" style="height: 800px;">
+      <nav class="navbar navbar-expand-lg navbar-light navIndex mx-2 px-5 mt-1 ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="../multimedia/CabeceraLogoMiniNegro.png" alt="" style="width:50%;"></a>
+          <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pags" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item px-4">
+                  <a class="nav-link " aria-current="page" href="index.html">Inico</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  href="paginas/Proyectos.html" id="navbarDropdwn" role="button" data-bs-toggle="dropdown" aria-expanded="false">Proyectos</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item pags" href="paginas/Proyectos.html">Proyectos</a></li>
+                    <li><a class="dropdown-item pags" href="paginas/ProyectosBim.html">Proyectos Bim</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link" href="paginas/DireccionDeObra.html">Direccion De Obra</a>
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link " href="paginas/Servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item px-4">
+                  <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </section> 
+      </nav>
+        <section class="estiloNombre " data-aos="flip-down">  
+            <h1 class="tit1">HUGO PERERA FERRO</h1>
+            <h4 class="tit2">ARQUITECTO</h4>
+            <h4 class="tit2">BIM MANAGER </h4>
+        </section> 
+    </section>
     <section class="PARALLEX2"></section>
     <!-- galeria -->
-    <section class="conteiner pt-3 ms-5 px-5">
+    <section class="conteiner py-5 my-5 ms-5 px-5">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 " >
         <div class="col ">
             <div class="card" style="width: 90%;">
                 <img class="card-img-top" src="multimedia/Index/Edif4.jpg" alt="Card image cap">
                 <div class="card-body text-center">
-                  <h6>Salto</h6>
-                  <p class="card-text" >Nam at sem metus. Nunc nec nibh quam. Maecenas sollicitudin elit arcu, in scelerisque massa convallis ac. Proin ut dui id purus rutrum vulputate lacinia in urna. Suspendisse nec laoreet ante, a sodales tellus. Donec at lacinia risus. Vivamus quis mi ut augue tristique mattis aliquet vehicula eros. Nam suscipit arcu eu metus dictum, ac suscipit diam facilisis. Fusce dolor elit, blandit vel porta et, molestie eu urna.
+                  <h6 class="tIndex">Salto</h6>
+                  <p class="textoColor" >Esta obra ubicada en salto proyecta una imagen brutalista de simplicidad moderna que, curiosamente, vislumbra la esencia del templo griego, su cercania con el mar resalta los tonoscremas precentes en la misma.
+                    Apesar de ser edificada en el año 2021 fue diseñada en el año 2016 dado que el proyecto quedo pasuado por razones que no involucran al arquitecto.
                   </p>
                 </div>
             </div>
@@ -71,9 +82,8 @@
         <div class="card" style="width: 90%;">
             <img class="card-img-top" src="multimedia/Index/Edif3.jpeg" alt="Card image cap">
             <div class="card-body text-center">
-              <h6>Flores</h6>
-              <p class="card-text" >Nam at sem metus. Nunc nec nibh quam. Maecenas sollicitudin elit arcu, in scelerisque massa convallis ac. Proin ut dui id purus rutrum vulputate lacinia in urna. Suspendisse nec laoreet ante, a sodales tellus. Donec at lacinia risus. Vivamus quis mi ut augue tristique mattis aliquet vehicula eros. Nam suscipit arcu eu metus dictum, ac suscipit diam facilisis. Fusce dolor elit, blandit vel porta et, molestie eu urna.
-</p>
+              <h6 class="tIndex">Flores</h6>
+              <p class="textoColor" >Esta casa en el departamento de flores fue diseñada en el año 2017 y finalizada a fines del 2018 tiene una estética vanguardista con las líneas rectas del techo se le suman los espacios abiertos al exterior perfectamente identificados por el entorno verde con que cuenta esta residencia, y es aprovechado para su disfrute desde cualquier espacio interno de la vivienda. </p>
             </div>
         </div>
       </div>
@@ -81,32 +91,32 @@
         <div class="card" style="width: 90%;">
             <img class="card-img-top" src="multimedia/Index/Edif2.jpg" alt="Card image cap">
             <div class="card-body text-center">
-              <h6>Maldonado</h6>
-              <p class="card-text" >Nam at sem metus. Nunc nec nibh quam. Maecenas sollicitudin elit arcu, in scelerisque massa convallis ac. Proin ut dui id purus rutrum vulputate lacinia in urna. Suspendisse nec laoreet ante, a sodales tellus. Donec at lacinia risus. Vivamus quis mi ut augue tristique mattis aliquet vehicula eros. Nam suscipit arcu eu metus dictum, ac suscipit diam facilisis. Fusce dolor elit, blandit vel porta et, molestie eu urna.
-</p>
+              <h6 class="tIndex">Maldonado</h6>
+              <p class="textoColor" >Este edificio que reside en maldonado fue diseñado y finalizado en el año 2020 esta  pieza conceptual que sintetiza las nociones de los cinco puntos de una nueva arquitectura (1926-27) y que determina el canon moderno.</p>
             </div>
         </div>
       </div>
       <div class="col">
-        <div class="card" style="width: 90%;">
-            <img class="card-img-top" src="multimedia/Index/Edif1.jpeg" alt="Card image cap">
-            <div class="card-body text-center">
-              <h6>Montevideo</h6>
-              <p class="card-text" >Nam at sem metus. Nunc nec nibh quam. Maecenas sollicitudin elit arcu, in scelerisque massa convallis ac. Proin ut dui id purus rutrum vulputate lacinia in urna. Suspendisse nec laoreet ante, a sodales tellus. Donec at lacinia risus. Vivamus quis mi ut augue tristique mattis aliquet vehicula eros. Nam suscipit arcu eu metus dictum, ac suscipit diam facilisis. Fusce dolor elit, blandit vel porta et, molestie eu urna.
-              </p>
-            </div>
+          <div class="card" style="width: 90%;">
+              <img class="card-img-top" src="multimedia/Index/Edif1.jpeg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h6 class="tIndex">Montevideo</h6>
+                <p class="textoColor" >Este edificio recidiente en la ciudad de Montevideo es un gran ejemplo de viviendas modular de fabricación y montaje simple.
+                  los bajos costos y hermosa esructura resultan un gran atractivo para futuros clientes. 
+                </p>
+              </div>
+          </div>
         </div>
       </div>
-    </div>
     </section>
     
-    
+    <!-- footer con redes  -->
     <footer class="d-flex justify-content-between  align-content-center" style="background-color: rgb(103, 30, 30) ;" >
       <p class="footerStyle">Derechos reservados Simone Perera</p>
       <div>
-        <a href=""><img src="../multimedia/Redes/linkedin.png" alt="linkedin" class="linkedin" ></a>
-        <a href=""><img src="../multimedia/Redes/Facebook.png" alt="facebook" class="facebook"></a>
-        <a href=""><img src="../multimedia/Redes/whatsapp.png" alt="whatsapp" class="whatsapp"></a>  
+        <a href=""><img src="multimedia/Redes/linkedin.png" alt="linkedin" class="linkedin" ></a>
+        <a href=""><img src="multimedia/Redes/Facebook.png" alt="facebook" class="facebook"></a>
+        <a href=""><img src="multimedia/Redes/whatsapp.png" alt="whatsapp" class="whatsapp"></a>  
       </div>
     </footer>
 

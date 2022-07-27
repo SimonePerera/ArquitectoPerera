@@ -1,9 +1,136 @@
+/* font-family: 'Ibarra Real Nova', serif;
+font-family: 'Zilla Slab', serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden;
+  background-color: white; }
+
+html {
+  font-size: 65%;
+  font-family: 'Zilla Slab', serif; }
+
+p {
+  text-align: justify;
+  color: beige; }
+
+.todoP {
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.footerStyle {
+  font-size: 15px;
+  color: white; }
+
+.tam {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .tam a {
+    padding-left: 10px; }
+    .tam a img {
+      width: 30px; }
+      .tam a img:hover {
+        background-color: #d5d5d5; }
+
+.pags {
+  font-size: 20px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.textoColor {
+  font-size: 16px;
+  color: black; }
+
+.tituloS {
+  font-size: 25px;
+  color: #251010; }
+
+.headerIndex {
+  background-color: rgba(237, 237, 237, 0.751);
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-bottom-style: solid;
+  border-color: black; }
+  .headerIndex p {
+    font-size: 14px;
+    color: black;
+    padding-top: 1%; }
+
+.navIndex {
+  background-color: rgba(174, 174, 174, 0.807); }
+  .navIndex a {
+    color: #fffdfd; }
+
+.tIndex {
+  font-size: 18px;
+  color: black; }
+
+.dropdown-menu {
+  background-color: grey; }
+
+.PARALLEX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../multimedia/Edificio.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0ch; }
+
+.PARALLEX2 {
+  background-image: url("../multimedia/Edificio.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0ch; }
+
+.estiloNombre {
+  text-align: center;
+  background-color: rgba(174, 174, 174, 0.863);
+  padding: 8% 5% 0% 5%;
+  margin-top: 8%;
+  height: 600px;
+  overflow-wrap: break-word; }
+
+.tit1 {
+  font-size: 100px;
+  color: white; }
+
+.tit2 {
+  font-size: 40px;
+  color: white; }
+
+.PARALLEXC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../multimedia/Edificio.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0ch; }
+
 .tem h6 {
-  display: inline; }
+  display: inline;
+  font-size: 19px; }
 
 .tem p {
   display: inline;
   margin-left: 5px; }
+
+.tem a {
+  font-size: 19px;
+  overflow-wrap: break-word; }
 
 .linkedin {
   background-color: #0e76a8;
@@ -32,11 +159,21 @@
 
 .botonC--a {
   background-color: #6c1e1e;
-  font-weight: 200; }
+  font-weight: 200;
+  color: white; }
 
 .botonC--r {
   background-color: grey;
-  font-weight: 100; }
+  font-weight: 100;
+  color: white; }
+
+.CONT {
+  font-size: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px; }
+  .CONT h4 {
+    font-size: 25px; }
 
 .tom {
   padding-top: 15px; }
@@ -47,17 +184,23 @@
       padding-right: 10px;
       text-align: center;
       padding-bottom: 10px; }
+  .tom p {
+    color: black; }
 
-.footerStyle {
-  font-size: 15px;
-  color: white; }
+.carDo {
+  border-style: solid;
+  border-color: black; }
 
-.tam {
-  margin-top: 5px;
-  margin-bottom: 5px; }
-  .tam a {
-    padding-left: 10px; }
-    .tam a img {
-      width: 30px; }
-      .tam a img:hover {
-        background-color: #d5d5d5; }
+.foto {
+  width: 20%; }
+
+.cTit {
+  font-size: 40px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.ptte {
+  padding-top: 4%; }
