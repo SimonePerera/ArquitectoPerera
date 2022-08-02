@@ -19,6 +19,8 @@ html{
 p{ text-align: justify;
 color: beige;}
 
+$grisP: rgba(174, 174, 174, 0.863);
+
 .todoP{
     padding-left: 5%;
     padding-right: 5% ;
@@ -37,12 +39,15 @@ color: beige;}
             width: 30px;
             
         &:hover{
-            background-color: rgb(213, 213, 213);
+            background-color: $grisP
         }
         }
     }
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.tem{
+    color: black;
 }
 .pags{
     @include Letra(20px,black);
@@ -52,12 +57,37 @@ color: beige;}
     @include Letra(16px,black)
 }
 .tituloS{
-    @include Letra(25px,rgb(37, 16, 16))
+    @include Letra(21px,rgb(37, 16, 16));
+    overflow-wrap: break-word
 }
 
+
+.PARALLEXC { 
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    background-image: url("../multimedia/Edificio.jpg");
+
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0ch;
+}
+.siluet{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    background-color: white;
+}
+.brk{
+    overflow-wrap: break-word;
+}
 //  Imports 
 @import "index";
 @import "contacto";
 @import "DireccionDeObra";
 @import "servicios";
-
+@import "Proyectos";

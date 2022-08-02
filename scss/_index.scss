@@ -54,17 +54,29 @@
 
 .estiloNombre{
     text-align: center;
-    background-color: rgba(174, 174, 174, 0.863);
+    background-color: $grisP;
     padding: 8% 5% 0% 5%;
     margin-top: 8%;
     height: 600px;
     overflow-wrap: break-word;
 }
 .tit1{
-    @include Letra(100px,white)
+    @include Letra(90px,white)
 }
 
 .tit2{
     @include Letra(40px,white)
 }
 
+@media screen and (max-width: 540px	){
+    .PARALLEX{
+        height: 50px;
+        min-height: 190px;
+    }
+    .tit1{
+        @include Letra(40px,white);
+        padding: 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+    }
+}

@@ -33,7 +33,10 @@ p {
     .tam a img {
       width: 30px; }
       .tam a img:hover {
-        background-color: #d5d5d5; }
+        background-color: rgba(174, 174, 174, 0.863); }
+
+.tem {
+  color: black; }
 
 .pags {
   font-size: 20px;
@@ -45,8 +48,30 @@ p {
   color: black; }
 
 .tituloS {
-  font-size: 25px;
-  color: #251010; }
+  font-size: 21px;
+  color: #251010;
+  overflow-wrap: break-word; }
+
+.PARALLEXC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../multimedia/Edificio.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0ch; }
+
+.siluet {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
+  background-color: white; }
+
+.brk {
+  overflow-wrap: break-word; }
 
 .headerIndex {
   background-color: rgba(237, 237, 237, 0.751);
@@ -101,24 +126,23 @@ p {
   overflow-wrap: break-word; }
 
 .tit1 {
-  font-size: 100px;
+  font-size: 90px;
   color: white; }
 
 .tit2 {
   font-size: 40px;
   color: white; }
 
-.PARALLEXC {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("../multimedia/Edificio.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0ch; }
+@media screen and (max-width: 540px) {
+  .PARALLEX {
+    height: 50px;
+    min-height: 190px; }
+  .tit1 {
+    font-size: 40px;
+    color: white;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder; } }
 
 .tem h6 {
   display: inline;
@@ -163,7 +187,7 @@ p {
   color: white; }
 
 .botonC--r {
-  background-color: grey;
+  background-color: rgba(174, 174, 174, 0.863);
   font-weight: 100;
   color: white; }
 
@@ -172,8 +196,11 @@ p {
   margin-left: 5%;
   margin-right: 5%;
   padding: 5px; }
-  .CONT h4 {
+  .CONT h1 {
     font-size: 25px; }
+
+.CONT2 {
+  margin: 0% 15% 0% 15%; }
 
 .tom {
   padding-top: 15px; }
@@ -191,8 +218,20 @@ p {
   border-style: solid;
   border-color: black; }
 
-.foto {
-  width: 20%; }
+.bgCol {
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 26px;
+  overflow-wrap: break-word; }
+
+.tituloDO {
+  font-size: 35px;
+  color: black; }
+
+@media screen and (max-width: 540px) {
+  .tituloDO {
+    overflow-wrap: break-word;
+    font-size: 20px;
+    color: black; } }
 
 .cTit {
   font-size: 40px;
@@ -204,3 +243,8 @@ p {
 
 .ptte {
   padding-top: 4%; }
+
+.textoColorP {
+  font-size: 22px;
+  color: black;
+  padding: 3%; }

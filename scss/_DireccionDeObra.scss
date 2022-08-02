@@ -13,6 +13,7 @@
         color:black;
     }
 }
+
 .carDo{
 
     border-style: solid ;
@@ -20,6 +21,19 @@
 
 }
 
-.foto{
-    width: 20%;
+.bgCol{
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 26px;
+    overflow-wrap: break-word;
+}
+
+.tituloDO{
+    @include Letra(35px,black)
+}
+@media screen and (max-width: 540px	){
+
+    .tituloDO{
+        overflow-wrap: break-word;
+        @include Letra(20px,black)
+    }
 }

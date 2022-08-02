@@ -1,18 +1,3 @@
-.PARALLEXC { 
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    background-image: url("../multimedia/Edificio.jpg");
-
-    min-height: 400px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0ch;
-}
-
 
 .tem{
     h6{
@@ -60,20 +45,25 @@ $social: (
 
 .botonC--r{
 	@extend .botonC;
-	background-color:grey;
+	background-color:$grisP;
     font-weight: 100;
     color: white;
 }
-
+    
 .CONT{
     font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
     padding: 5px;
-    h4{
+    h1{
         font-size: 25px;
     }
 }
+.CONT2{
+    margin: 0% 15% 0% 15%;
+}
+
+
 // mixin se encuentra en main 
 
 
